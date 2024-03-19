@@ -1,0 +1,26 @@
+body {
+  font-size: calc(1em + 1vw);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #666;
+  color: #fff;
+  height: 300vh;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background:lightblue;
+    color: #111;
+  }
+}
+ul,form {
+  margin: 1em auto;
+  padding: 20px;
+  max-width: 20em;
+}
+input, button {
+  border: none;
+  margin:  0;
+  padding: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.8em;
+}
